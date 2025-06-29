@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Случайное целое число от min до max
 export function random(min, max) {
   return Math.round(min - 0.5 + Math.random() * (max - min + 1));
@@ -15,8 +15,7 @@ export function removeWithFadeOut(element, timeout = 500) {
   element.style.opacity = '0';
   setTimeout(() => element.remove(), timeout);
 }
-=======
 export function random(min, max) {
   return Math.round(min - 0.5 + Math.random() * (max - min + 1))
 }
->>>>>>> f2686dda40fbc3d1b883d7cf37b290503370a0c9
+
