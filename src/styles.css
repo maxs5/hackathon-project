@@ -14,7 +14,10 @@ body {
     padding: 2rem;
 }
 
+<<<<<<< HEAD
 /* Контекстное меню */
+=======
+>>>>>>> f2686dda40fbc3d1b883d7cf37b290503370a0c9
 .menu {
     position: fixed;
     z-index: 1000;
@@ -34,12 +37,17 @@ body {
     font-size: 1rem;
     color: #eee;
     cursor: pointer;
+<<<<<<< HEAD
     transition: background-color 0.2s ease-in;
+=======
+    transition: background-color .2s ease-in;
+>>>>>>> f2686dda40fbc3d1b883d7cf37b290503370a0c9
     border-radius: inherit;
 }
 
 .menu .menu-item:hover {
     background: #343434;
+<<<<<<< HEAD
 }
 
 /* Блок аналитики кликов */
@@ -70,3 +78,6 @@ body {
   filter: blur(1px);
 }
 
+=======
+}
+>>>>>>> f2686dda40fbc3d1b883d7cf37b290503370a0c9

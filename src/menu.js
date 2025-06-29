@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Menu } from './core/menu.js';
 
 export class CustomMenu extends Menu {
@@ -41,3 +42,10 @@ export class CustomMenu extends Menu {
     this.modules.push(module);
   }
 }
+=======
+import {Menu} from './core/menu'
+
+export class ContextMenu extends Menu {
+
+}
+>>>>>>> f2686dda40fbc3d1b883d7cf37b290503370a0c9
